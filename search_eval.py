@@ -52,7 +52,7 @@ def load_ranker(cfg_file):
     configuration file used to load the index.
     """
     #return metapy.index.OkapiBM25()
-    return InL2Ranker(some_param=0.75)
+    return InL2Ranker(some_param=0.5)
     #return PL2Ranker(c_param=0.75)
 
 if __name__ == '__main__':
