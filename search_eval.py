@@ -54,7 +54,7 @@ def load_ranker(cfg_file):
     #return metapy.index.OkapiBM25()
     #return InL2Ranker(some_param=0.5)
     #return PL2Ranker(c_param=0.75)
-    return metapy.index.OkapiBM25(k1=1.75,b=0.55, k3=3.5)
+    return metapy.index.OkapiBM25(k1=1.525,b=0.75, k3=3.235)
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:
